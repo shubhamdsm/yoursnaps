@@ -1,0 +1,15 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+.heading
+{
+    display:flex;
+    justify-content: center;
+}
+
+a
+{
+    display:flex;
+    justify-content: center;
+}
