@@ -11,6 +11,8 @@
     <title>Home</title>
   </head>
   <body>
+
+
     <nav class ="navbar navbar-light bg-light navbar-expand-lg fixed-top">
       <a href="#" class="navbar-brand" >Data Selfie App</a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" >
@@ -29,14 +31,35 @@
         </ul>      
       </div>
     </nav> 
-    <p>
-      latitude: <span id="latitude"></span>&deg;<br />
-      longitude: <span id="longitude"></span>&deg;
-    </p>
-    <label for="mood">Enter your mood</label>
-    <input id="mood" value="rainbow" />
+          
+    <div>
+    
+    </br>
+    </br>
+    </br>  
+        <p>
+      Latitude: <span id="latitude"></span>&deg;<br />
+      Longitude: <span id="longitude"></span>&deg;
+        </p>
+    </div>
 
-    <button id="submit">submit</button>
+    <div class="container" style="margin-top: 20px;">
+      <form>
+          <div class="form-group row" >
+          
+            <label for="mood"class=" col-form-label">Enter your mood: </label>
+            <div>
+              <input id="mood" value="rainbow" />
+            </div>  
+          </div>
+          <div class="row">
+            <div>
+              <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+            </div>  
+          </div>  
+      </form>
+    </div>
+    
     <script src ="script.js"></script>
 
       
