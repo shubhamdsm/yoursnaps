@@ -4,15 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js" integrity="sha256-KDK3xm/GlUAv2dBVItuCM6jjCCtAVrjEfsdpcuMbN5M=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js" integrity="sha256-a6uP+lfJTznPH4/eUqQFX3/sULwjHbfGtUjy8CWPooI=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    
+    <title>Home</title>
   </head>
   <body>
-    <h1 class="heading">Data Selfie App</h1>
-    <a href="index.html">Home</a>
-    <a href="/logs/result.html">Your snaps</a>
+    <nav class ="navbar navbar-light bg-light navbar-expand-lg fixed-top">
+      <a href="#" class="navbar-brand" >Data Selfie App</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" >
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="navbar-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li> 
+          
+            <li class="navbar-item">   
+              <a href="/logs/result.html" class="nav-link">Your snaps</a>
+            </li> 
+        </ul>      
+      </div>
+    </nav> 
     <p>
       latitude: <span id="latitude"></span>&deg;<br />
       longitude: <span id="longitude"></span>&deg;
@@ -23,8 +39,10 @@
     <button id="submit">submit</button>
     <script src ="script.js"></script>
 
-     
       
-    
+      
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
   </body>
 </html>
